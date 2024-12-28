@@ -1,0 +1,164 @@
+/* General Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Intro Section */
+#intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background-color: #f4f4f9;
+}
+
+.intro-left {
+    width: 50%;
+}
+
+.intro-left h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.intro-left p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
+
+.intro-right img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+#contact input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact input:focus {
+    outline: none;
+    border-color: #f4a261;
+}
+
+#contact button {
+    background-color: #f4a261;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #e76f51;
+}
+
+/* Table Section */
+#table {
+    padding: 60px 40px;
+    background-color: #f4f4f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
